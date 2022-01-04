@@ -33,8 +33,7 @@ Save = function () {
 }
 
 Load_1 = function () {
-	if (!file_exists("CGNS_Slot_1")) { room_goto(Room1) } else
-	if file_exists("CGNS_Slot_1") {
+	//if !file_exists("CGNS_Slot_1") { room_goto(Room1) } else {
 	
 	// Load JSON
 	var _json = LoadString("CGNS_Slot_1");
@@ -57,7 +56,6 @@ Load_1 = function () {
 		_Ship.weapon_type = _ShipData.weapon_type;
 		_Ship.landed = _ShipData.landed;
 		_Ship.EngineTier = _ShipData.EngineTier;
-		}
 	}
 }
 
