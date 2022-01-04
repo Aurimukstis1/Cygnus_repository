@@ -5,6 +5,7 @@ var camY = camera_get_view_y(camera);
 var camW = camera_get_view_width(camera);
 var camH = camera_get_view_height(camera);
 
+if instance_exists(Playership) {
 // Set target camera position
 if Playership.landed = false {
 var targetX = Playership.x - camW/2;
@@ -58,3 +59,5 @@ mouse_y_previous = device_mouse_y_to_gui(0);
 // Reduce shake
 
 if (shakeValue > 0) shakeValue -= 0.1;
+
+}

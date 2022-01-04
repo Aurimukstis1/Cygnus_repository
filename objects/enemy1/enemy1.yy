@@ -8,8 +8,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "pFaction2",
-    "path": "objects/pFaction2/pFaction2.yy",
+    "name": "Savable",
+    "path": "objects/Savable/Savable.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
