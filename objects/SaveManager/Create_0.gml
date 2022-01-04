@@ -23,8 +23,6 @@ Save = function () {
 			weapon_type : _Ship.weapon_type,
 			landed : _Ship.landed,
 			EngineTier : _Ship.EngineTier,
-			//paused_surf : _Ship.paused_surf,
-			//paused : _Ship.paused
 		}
 	}
 	
@@ -35,7 +33,8 @@ Save = function () {
 }
 
 Load_1 = function () {
-	if (!file_exists("CGNS_Slot_1")) return;
+	if (!file_exists("CGNS_Slot_1")) { room_goto(Room1) } else
+	if file_exists("CGNS_Slot_1") {
 	
 	// Load JSON
 	var _json = LoadString("CGNS_Slot_1");
@@ -58,18 +57,8 @@ Load_1 = function () {
 		_Ship.weapon_type = _ShipData.weapon_type;
 		_Ship.landed = _ShipData.landed;
 		_Ship.EngineTier = _ShipData.EngineTier;
-		//_Ship.paused_surf = _ShipData.paused_surf;
-		//_Ship.paused = _ShipData.paused;
-	}
-}
-
-if global.LoadFile_1 = true {
-	if file_exists("CGNS_Slot_1") {
-		Load_1();
-	}
-	else {
-	if !file_exists("CGNS_Slot_1") {
-			room_goto(Room1);
 		}
 	}
 }
+
+Load_1();
