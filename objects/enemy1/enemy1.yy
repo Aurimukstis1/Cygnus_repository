@@ -1,15 +1,15 @@
 {
   "spriteId": {
-    "name": "MissileUnlocked",
-    "path": "sprites/MissileUnlocked/MissileUnlocked.yy",
+    "name": "sNXFR_JunoFrigateDamascus",
+    "path": "sprites/sNXFR_JunoFrigateDamascus/sNXFR_JunoFrigateDamascus.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "Savable",
-    "path": "objects/Savable/Savable.yy",
+    "name": "pFaction2",
+    "path": "objects/pFaction2/pFaction2.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,

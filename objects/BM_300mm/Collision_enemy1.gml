@@ -1,5 +1,5 @@
 if enemy_ = false {
 instance_destroy();
-instance_create_layer(x,y,"Instances_3",EExplosionExplosion);
+part_particles_create(global.P_System, x, y, global.Particle_explosionburstsmall1, 1);
 other.health_ -= 300;
 }

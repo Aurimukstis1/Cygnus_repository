@@ -31,8 +31,8 @@ if health_ <= 0 {
 	#region Explosion Big
 	repeat 5 {
 	audio_play_sound(choose(ExplodingSnd4,ExplodingSnd3,ExplodingSnd2,ExplodingSnd1,ExplodingSnd),1,false);
-	instance_create_layer(x,y,"Instances_3",EExplosionImpact);
-	instance_create_layer(random_range(x-100,x+100),random_range(y-100,y+100),"Instances_3",EExplosionExplosion_2);
+	part_particles_create(global.P_System, x, y, global.Particle_explosionburstsmall2, 1);
+	part_particles_create(global.P_System, random_range(x-100,x+100), random_range(y-100,y+100), global.Particle_explosionburstsmall1, 1);
 	}
 	#endregion
 //	instance_create_layer(x,y,"Instances_3",fragment);
