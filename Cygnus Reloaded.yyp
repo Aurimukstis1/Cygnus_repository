@@ -100,6 +100,7 @@
     {"id":{"name":"ExplodingSnd4","path":"sounds/ExplodingSnd4/ExplodingSnd4.yy",},"order":5,},
     {"id":{"name":"AAAG_3Barrel","path":"objects/AAAG_3Barrel/AAAG_3Barrel.yy",},"order":33,},
     {"id":{"name":"ShootingSnd1","path":"sounds/ShootingSnd1/ShootingSnd1.yy",},"order":12,},
+    {"id":{"name":"black","path":"sprites/black/black.yy",},"order":18,},
     {"id":{"name":"flare_7_thumbnail","path":"sprites/flare_7_thumbnail/flare_7_thumbnail.yy",},"order":16,},
     {"id":{"name":"Boxy_Bold","path":"fonts/Boxy_Bold/Boxy_Bold.yy",},"order":0,},
     {"id":{"name":"sNXFR_JunoHaulerHammerheadFull","path":"sprites/sNXFR_JunoHaulerHammerheadFull/sNXFR_JunoHaulerHammerheadFull.yy",},"order":14,},

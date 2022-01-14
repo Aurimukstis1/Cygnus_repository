@@ -1,2 +1,3 @@
-audio_play_sound(MenuSelectSnd,1,false);
-room_goto(Main_Menu_Slots);
+audio_play_sound(fadeout3,1,false);
+alarm_set(0,60);
+fadeout = true;
