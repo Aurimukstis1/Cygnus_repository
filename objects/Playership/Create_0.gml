@@ -1,34 +1,45 @@
-health_ = 100;
-weapon_type = 1;
+friction = 0;
+mass = 1;
 landed = false;
 imgloop = 0;
+rspeed = 1;
 
-//ENGINE
+#region GUNS
 
-EngineTier = 5;
-rspeed = 1 * EngineTier * 1.5;
-direction = image_angle();
-friction = 0.1;
+weapon_type = 1;
+AmmoCapacity = 100000000000000; // (Rounds)
 
-//GUNS
-
-AmmoCapacity = 100000000000000;
-position = new vector(x, y);
-velocity = new vector_zero();
-steering_force = new vector_zero();
+#endregion
 
 #region UPGRADES
 
 CRB = true; //Chemical rocket booster
-LSE = true; //Light Speed Engine
-Shield = false; //Shield
+
+Fuel = 1; //Liquid hydrogen
+Oxidizer = 1; //Liquid Oxygen
+FuelInletQuality = 3; //LOW, MED, HIGH
+OxidizerInletQuality = 3; //LOW, MED, HIGH
+FuelValveQuality = 3; //LOW, MED, HIGH
+OxidizerValveQuality = 3; //LOW, MED, HIGH
+GimbalBlockQuality = 3; //LOW, MED, HIGH
+TurbopumpQuality = 3; //LOW, MED, HIGH
+HeatExchangerQuality = 3; //LOW, MED, HIGH
+ThrustChamberQuality = 3; //LOW, MED, HIGH
+ThrustChamberExtension = 3;  //LOW, MED, HIGH
 
 #endregion
 
 #region Basic values
 
-RF = 1; //Rocket fuel
-LSEF = 1; //Light Speed Engine Fuel
-Power = 100;
+ThrustPower = 0;
+
+MP = 2; //Monopropellant (Tonnes)
+RF = 10; //Rocket fuel (Tonnes) 
+LF = 80; //Oxidizer (Tonnes)
+Power = 100; //Power (MW)
 
 #endregion
+
+position = new vector(x, y);
+velocity = new vector_zero();
+steering_force = new vector_zero();

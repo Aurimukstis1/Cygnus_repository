@@ -1,9 +1,3 @@
-//x = nearestship.x + lengthdir_x(xx, nearestship.image_angle);
-//y = nearestship.y + lengthdir_y(yy, nearestship.image_angle); 
-
-//x=nearestship.x+lengthdir_x(xx,nearestship.direction);
-//y=nearestship.y+lengthdir_y(yy,nearestship.direction);
-
 if instance_exists(target) {
 dir = point_direction(x, y, target.x, target.y);
 image_angle += sin(degtorad(dir - image_angle)) * rspeed;

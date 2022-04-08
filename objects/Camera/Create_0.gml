@@ -7,9 +7,9 @@ draw_set_font(Boxy_Bold);
 
 /// @description 
 //Resolution
-#macro RES_W 1920
-#macro RES_H 1080
-#macro RES_SCALE 1
+#macro RES_W 320
+#macro RES_H 180
+#macro RES_SCALE 6
 
 #macro CAM_SMOOTH 0.1
 
