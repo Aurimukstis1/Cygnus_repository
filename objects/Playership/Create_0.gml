@@ -1,8 +1,8 @@
-friction = 0;
+friction = 0.2;
 mass = 1;
 landed = false;
 imgloop = 0;
-rspeed = 1;
+rspeed = 5;
 
 #region GUNS
 

@@ -124,7 +124,6 @@
     {"id":{"name":"ExplodingSnd","path":"sounds/ExplodingSnd/ExplodingSnd.yy",},"order":17,},
     {"id":{"name":"Pausing","path":"objects/Pausing/Pausing.yy",},"order":4,},
     {"id":{"name":"EExplosionImpact","path":"objects/EExplosionImpact/EExplosionImpact.yy",},"order":7,},
-    {"id":{"name":"GameParticle","path":"objects/GameParticle/GameParticle.yy",},"order":7,},
     {"id":{"name":"World","path":"rooms/World/World.yy",},"order":4,},
     {"id":{"name":"Marker","path":"objects/Marker/Marker.yy",},"order":1,},
     {"id":{"name":"SmokeBurstSmall1","path":"sprites/SmokeBurstSmall1/SmokeBurstSmall1.yy",},"order":1,},
@@ -157,7 +156,6 @@
     {"id":{"name":"SBM_160mm","path":"sprites/SBM_160mm/SBM_160mm.yy",},"order":12,},
     {"id":{"name":"flare_18","path":"sprites/flare_18/flare_18.yy",},"order":37,},
     {"id":{"name":"flare_26_thumbnail","path":"sprites/flare_26_thumbnail/flare_26_thumbnail.yy",},"order":54,},
-    {"id":{"name":"SaveManager","path":"objects/SaveManager/SaveManager.yy",},"order":5,},
     {"id":{"name":"sNXFR_JunoPatrolPathfinder","path":"sprites/sNXFR_JunoPatrolPathfinder/sNXFR_JunoPatrolPathfinder.yy",},"order":12,},
     {"id":{"name":"fadeout3","path":"sounds/fadeout3/fadeout3.yy",},"order":20,},
     {"id":{"name":"BM_100mm","path":"objects/BM_100mm/BM_100mm.yy",},"order":1,},
@@ -221,7 +219,6 @@
     {"id":{"name":"flare_2fgfgfgg_thumbnail","path":"sprites/flare_2fgfgfgg_thumbnail/flare_2fgfgfgg_thumbnail.yy",},"order":6,},
     {"id":{"name":"BM_9mm","path":"objects/BM_9mm/BM_9mm.yy",},"order":20,},
     {"id":{"name":"MediumArtillery_Barrel","path":"objects/MediumArtillery_Barrel/MediumArtillery_Barrel.yy",},"order":25,},
-    {"id":{"name":"GravityMaster","path":"objects/GravityMaster/GravityMaster.yy",},"order":8,},
     {"id":{"name":"SBM_180mm","path":"sprites/SBM_180mm/SBM_180mm.yy",},"order":13,},
     {"id":{"name":"s3Barrel_AAAG","path":"sprites/s3Barrel_AAAG/s3Barrel_AAAG.yy",},"order":13,},
     {"id":{"name":"enemy1","path":"objects/enemy1/enemy1.yy",},"order":20,},
@@ -303,7 +300,11 @@
   "TextureGroups": [
     {"isScaled":true,"autocrop":true,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":-1,"resourceVersion":"1.3","name":"Default","resourceType":"GMTextureGroup",},
   ],
-  "IncludedFiles": [],
+  "IncludedFiles": [
+    {"CopyToMask":3035461389054378222,"filePath":"datafiles","resourceVersion":"1.0","name":"encrypted.txt","resourceType":"GMIncludedFile",},
+    {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":"MAINSPRITESHEET.aseprite","resourceType":"GMIncludedFile",},
+    {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":"1024X1024 SHIPS.aseprite","resourceType":"GMIncludedFile",},
+  ],
   "MetaData": {
     "IDEVersion": "2.3.7.606",
   },
