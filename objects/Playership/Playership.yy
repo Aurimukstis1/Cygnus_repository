@@ -7,10 +7,7 @@
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "Savable",
-    "path": "objects/Savable/Savable.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": true,
   "physicsSensor": false,
   "physicsShape": 1,
