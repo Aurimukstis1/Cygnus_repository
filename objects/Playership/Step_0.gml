@@ -9,3 +9,5 @@ speed += 1
 	}
 direction = image_angle;
 }
+
+move_snap(1,1);

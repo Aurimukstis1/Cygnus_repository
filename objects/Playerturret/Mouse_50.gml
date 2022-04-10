@@ -15,14 +15,14 @@ if !audio_is_playing(GatlingGunSnd) {
 	Playership.AmmoCapacity -= 2;
 	with instance_create_layer(_xx, _yy, "Instances_3", BM_12mm)
 	{
-		speed = 50;
+		speed = 50+Playership.speed;
 		image_angle = other.image_angle;
 		direction = other.image_angle;
 		enemy_ = false;	
 	}
 	with instance_create_layer(_xx1, _yy1, "Instances_3", BM_12mm)
 	{
-		speed = 50;
+		speed = 50+Playership.speed;
 		image_angle = other.image_angle;
 		direction = other.image_angle;
 		enemy_ = false;	

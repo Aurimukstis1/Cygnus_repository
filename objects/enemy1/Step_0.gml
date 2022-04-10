@@ -35,8 +35,6 @@ if health_ <= 0 {
 	part_particles_create(global.P_System, random_range(x-100,x+100), random_range(y-100,y+100), global.Particle_explosionburstsmall1, 1);
 	}
 	#endregion
-//	instance_create_layer(x,y,"Instances_3",fragment);
-//	instance_create_layer(x,y,"Instances_3",fragment);
 	instance_destroy();
 }
 

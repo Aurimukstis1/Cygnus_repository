@@ -10,10 +10,7 @@ if instance_exists(Playership) {
 if Playership.landed = false {
 var targetX = Playership.x - camW/2;
 var targetY = Playership.y - camH/2;
-} //else {
-//var targetX = Playership.x - camW/2;	
-//var targetY = Playership.y - camH/2;
-//}
+}
 
 // Clamp the target to room bounds
 targetX = clamp(targetX, -infinity, infinity - camW);
