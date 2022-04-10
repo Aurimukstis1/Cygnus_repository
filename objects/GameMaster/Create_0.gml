@@ -1,3 +1,4 @@
+#region Particle
 global.P_System= part_system_create_layer(layer, true);
 global.Particle_explosionburstsmall1 = part_type_create();
 part_type_sprite(global.Particle_explosionburstsmall1, ExplosionBurstSmall1, 1, 0, 0)
@@ -78,21 +79,19 @@ part_type_speed(global.Particle_SmokeBurstSmall4, 0, 0, 0, 0);
 part_type_direction(global.Particle_SmokeBurstSmall4, 0, 359, 0, 0);
 part_type_blend(global.Particle_SmokeBurstSmall4, true);
 part_type_life(global.Particle_SmokeBurstSmall4, 30, 30);
-
-//paused = false;
-//paused_surf = -1;
+#endregion 
 
 blur = false;
 draw_set_font(Boxy_Bold);
 
 // OPTIONS //
 
-BrightnessSetting = 100;
-ScreenshakeSetting = 100;
-VFXSetting = 100;
-SFXSetting = 100;
+global.BrightnessSetting = 100;
+global.ScreenshakeSetting = 100;
+global.VFXSetting = 100;
+global.SFXSetting = 100;
 
-GameQualitySetting = 3;
+global.GameQualitySetting = 3;
 
 //Maximum - 3
 //Medium - 2
@@ -111,7 +110,9 @@ with(_inst)
     text_y = y;
     text[text_current] = string_wrap(text[text_current], text_width);
 }
-	
+
+////
+
 global.version = "0.0.4";
 
 Save = function () {
@@ -144,10 +145,51 @@ SaveString(_json, "SAVEDATA.CYGNUS"); }
 
 ////
 
+Backup = function () {
+	
+var _rootstruct = {
+	ship_x : Playership.x,
+	ship_y : Playership.y,
+	ship_image_angle : Playership.image_angle,
+	version : global.version,
+}
+
+var _bullets = array_create(instance_number(BM));
+var i = 0;
+with (BM) {
+    _bullets[i++] = {
+        bullet_x : x,
+        bullet_y : y,
+		bullet_direction : direction,
+		bullet_speed : speed,
+		bullet_image_angle : image_angle,
+		enemy_status : enemy_,
+    }
+}
+
+_rootstruct.bulletcount = instance_number(BM);
+_rootstruct.bullets = _bullets;
+
+var _json = json_stringify(_rootstruct);
+SaveString(_json, "SAVEDATA_BACKUP.CYGNUS"); 	
+}
+
+////
+
 Load = function () {
 	var _json = LoadString("SAVEDATA.CYGNUS");
 	var _rootstruct = json_parse(_json);
 	var _Ship = _rootstruct;
+	
+	var _versionget = _rootstruct.version;
+	if _versionget < global.version {
+		show_message("Warning: Savefile version different from game version!\nCreating backup just incase!")
+		Backup();
+	}
+	if _versionget > global.version {
+		show_message("Warning: Savefile version different from game version!\nCreating backup just incase!")
+		Backup();
+	}
 	
 		instance_destroy(Playership); 
 		var _Ship = instance_create_layer(x, y, "Instances_3", Playership);
