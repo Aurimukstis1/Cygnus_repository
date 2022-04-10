@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sNXFR_JunoCivAvalon","path":"sprites/sNXFR_JunoCivAvalon/sNXFR_JunoCivAvalon.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sNXFR_JunoCivAvalon",
     "tags": [],
     "resourceType": "GMSequence",

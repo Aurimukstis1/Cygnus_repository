@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"CygnusEarthBackground","path":"sprites/CygnusEarthBackground/CygnusEarthBackground.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "CygnusEarthBackground",
     "tags": [],
     "resourceType": "GMSequence",

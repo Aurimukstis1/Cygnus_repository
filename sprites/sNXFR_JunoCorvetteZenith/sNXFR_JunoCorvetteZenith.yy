@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sNXFR_JunoCorvetteZenith","path":"sprites/sNXFR_JunoCorvetteZenith/sNXFR_JunoCorvetteZenith.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sNXFR_JunoCorvetteZenith",
     "tags": [],
     "resourceType": "GMSequence",

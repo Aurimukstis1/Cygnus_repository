@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"WarningLabelSavingBug","path":"sprites/WarningLabelSavingBug/WarningLabelSavingBug.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "WarningLabelSavingBug",
     "tags": [],
     "resourceType": "GMSequence",

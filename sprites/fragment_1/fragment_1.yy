@@ -150,7 +150,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"fragment_1","path":"sprites/fragment_1/fragment_1.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "fragment_1",
     "tags": [],
     "resourceType": "GMSequence",

@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"Aurimukstis1Logo","path":"sprites/Aurimukstis1Logo/Aurimukstis1Logo.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "Aurimukstis1Logo",
     "tags": [],
     "resourceType": "GMSequence",

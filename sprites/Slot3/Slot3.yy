@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"Slot3","path":"sprites/Slot3/Slot3.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "Slot3",
     "tags": [],
     "resourceType": "GMSequence",

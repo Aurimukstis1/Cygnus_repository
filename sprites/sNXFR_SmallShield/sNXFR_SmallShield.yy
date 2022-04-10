@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sNXFR_SmallShield","path":"sprites/sNXFR_SmallShield/sNXFR_SmallShield.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sNXFR_SmallShield",
     "tags": [],
     "resourceType": "GMSequence",

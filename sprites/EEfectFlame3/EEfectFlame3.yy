@@ -195,7 +195,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"EEfectFlame3","path":"sprites/EEfectFlame3/EEfectFlame3.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "EEfectFlame3",
     "tags": [],
     "resourceType": "GMSequence",

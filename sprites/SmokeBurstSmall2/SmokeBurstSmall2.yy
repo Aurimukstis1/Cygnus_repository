@@ -175,7 +175,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"SmokeBurstSmall2","path":"sprites/SmokeBurstSmall2/SmokeBurstSmall2.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "SmokeBurstSmall2",
     "tags": [],
     "resourceType": "GMSequence",

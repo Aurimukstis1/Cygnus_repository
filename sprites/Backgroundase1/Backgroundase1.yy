@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"Backgroundase1","path":"sprites/Backgroundase1/Backgroundase1.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "Backgroundase1",
     "tags": [],
     "resourceType": "GMSequence",

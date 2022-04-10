@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"Fire_Exhaust_Small","path":"sprites/Fire_Exhaust_Small/Fire_Exhaust_Small.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "Fire_Exhaust_Small",
     "tags": [],
     "resourceType": "GMSequence",

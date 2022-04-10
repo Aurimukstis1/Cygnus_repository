@@ -60,7 +60,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"BackgroundSPace1","path":"sprites/BackgroundSPace1/BackgroundSPace1.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "BackgroundSPace1",
     "tags": [],
     "resourceType": "GMSequence",

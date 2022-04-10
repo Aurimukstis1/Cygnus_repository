@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"Quit1","path":"sprites/Quit1/Quit1.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "Quit1",
     "tags": [],
     "resourceType": "GMSequence",

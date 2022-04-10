@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s3Barrel_AAAG","path":"sprites/s3Barrel_AAAG/s3Barrel_AAAG.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s3Barrel_AAAG",
     "tags": [],
     "resourceType": "GMSequence",

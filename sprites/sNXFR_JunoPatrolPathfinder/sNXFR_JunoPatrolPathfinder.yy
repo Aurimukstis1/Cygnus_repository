@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sNXFR_JunoPatrolPathfinder","path":"sprites/sNXFR_JunoPatrolPathfinder/sNXFR_JunoPatrolPathfinder.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sNXFR_JunoPatrolPathfinder",
     "tags": [],
     "resourceType": "GMSequence",

@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sMediumArtillery_Base","path":"sprites/sMediumArtillery_Base/sMediumArtillery_Base.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sMediumArtillery_Base",
     "tags": [],
     "resourceType": "GMSequence",

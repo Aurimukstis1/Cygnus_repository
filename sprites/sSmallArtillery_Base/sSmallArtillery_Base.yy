@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sSmallArtillery_Base","path":"sprites/sSmallArtillery_Base/sSmallArtillery_Base.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sSmallArtillery_Base",
     "tags": [],
     "resourceType": "GMSequence",

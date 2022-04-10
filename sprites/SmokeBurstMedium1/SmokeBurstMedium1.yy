@@ -455,7 +455,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"SmokeBurstMedium1","path":"sprites/SmokeBurstMedium1/SmokeBurstMedium1.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "SmokeBurstMedium1",
     "tags": [],
     "resourceType": "GMSequence",

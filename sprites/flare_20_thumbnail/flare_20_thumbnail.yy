@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"flare_20_thumbnail","path":"sprites/flare_20_thumbnail/flare_20_thumbnail.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "flare_20_thumbnail",
     "tags": [],
     "resourceType": "GMSequence",

@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sNXFR_BattleCruiser_Destiny","path":"sprites/sNXFR_BattleCruiser_Destiny/sNXFR_BattleCruiser_Destiny.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sNXFR_BattleCruiser_Destiny",
     "tags": [],
     "resourceType": "GMSequence",

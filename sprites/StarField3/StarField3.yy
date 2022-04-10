@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"StarField3","path":"sprites/StarField3/StarField3.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "StarField3",
     "tags": [],
     "resourceType": "GMSequence",

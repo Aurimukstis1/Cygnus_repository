@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sNXFR_HaulerTrinity","path":"sprites/sNXFR_HaulerTrinity/sNXFR_HaulerTrinity.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sNXFR_HaulerTrinity",
     "tags": [],
     "resourceType": "GMSequence",

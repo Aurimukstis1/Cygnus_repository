@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"MissileUnlocked","path":"sprites/MissileUnlocked/MissileUnlocked.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "MissileUnlocked",
     "tags": [],
     "resourceType": "GMSequence",

@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"SBM_120mm","path":"sprites/SBM_120mm/SBM_120mm.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "SBM_120mm",
     "tags": [],
     "resourceType": "GMSequence",

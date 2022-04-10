@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"black","path":"sprites/black/black.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "black",
     "tags": [],
     "resourceType": "GMSequence",

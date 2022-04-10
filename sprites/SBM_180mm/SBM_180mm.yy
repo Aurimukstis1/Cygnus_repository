@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"SBM_180mm","path":"sprites/SBM_180mm/SBM_180mm.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "SBM_180mm",
     "tags": [],
     "resourceType": "GMSequence",

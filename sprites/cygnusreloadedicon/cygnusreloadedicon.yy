@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"cygnusreloadedicon","path":"sprites/cygnusreloadedicon/cygnusreloadedicon.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "cygnusreloadedicon",
     "tags": [],
     "resourceType": "GMSequence",

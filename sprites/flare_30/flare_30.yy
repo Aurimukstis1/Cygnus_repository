@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"flare_30","path":"sprites/flare_30/flare_30.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "flare_30",
     "tags": [],
     "resourceType": "GMSequence",

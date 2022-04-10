@@ -183,7 +183,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"ExplosionBurstSmall1","path":"sprites/ExplosionBurstSmall1/ExplosionBurstSmall1.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "ExplosionBurstSmall1",
     "tags": [],
     "resourceType": "GMSequence",

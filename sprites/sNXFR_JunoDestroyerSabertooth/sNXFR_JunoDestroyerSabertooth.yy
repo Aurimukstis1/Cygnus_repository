@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sNXFR_JunoDestroyerSabertooth","path":"sprites/sNXFR_JunoDestroyerSabertooth/sNXFR_JunoDestroyerSabertooth.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sNXFR_JunoDestroyerSabertooth",
     "tags": [],
     "resourceType": "GMSequence",

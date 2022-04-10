@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"EnemyAmbush","path":"sprites/EnemyAmbush/EnemyAmbush.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "EnemyAmbush",
     "tags": [],
     "resourceType": "GMSequence",

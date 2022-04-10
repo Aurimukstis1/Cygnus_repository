@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sNXFR_JunoHaulerHammerheadEmpty","path":"sprites/sNXFR_JunoHaulerHammerheadEmpty/sNXFR_JunoHaulerHammerheadEmpty.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sNXFR_JunoHaulerHammerheadEmpty",
     "tags": [],
     "resourceType": "GMSequence",

@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sNXFR_JunoCorvetteLiberator","path":"sprites/sNXFR_JunoCorvetteLiberator/sNXFR_JunoCorvetteLiberator.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sNXFR_JunoCorvetteLiberator",
     "tags": [],
     "resourceType": "GMSequence",

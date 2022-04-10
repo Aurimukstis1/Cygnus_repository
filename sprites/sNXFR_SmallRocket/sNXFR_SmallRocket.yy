@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sNXFR_SmallRocket","path":"sprites/sNXFR_SmallRocket/sNXFR_SmallRocket.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sNXFR_SmallRocket",
     "tags": [],
     "resourceType": "GMSequence",

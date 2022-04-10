@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sBigArtillery_Barrel","path":"sprites/sBigArtillery_Barrel/sBigArtillery_Barrel.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sBigArtillery_Barrel",
     "tags": [],
     "resourceType": "GMSequence",

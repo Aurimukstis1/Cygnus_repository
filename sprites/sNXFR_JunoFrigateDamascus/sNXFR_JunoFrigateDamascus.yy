@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sNXFR_JunoFrigateDamascus","path":"sprites/sNXFR_JunoFrigateDamascus/sNXFR_JunoFrigateDamascus.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sNXFR_JunoFrigateDamascus",
     "tags": [],
     "resourceType": "GMSequence",
