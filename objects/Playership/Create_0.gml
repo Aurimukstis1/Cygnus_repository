@@ -15,8 +15,9 @@ AmmoCapacity = 100000000000000; // (Rounds)
 
 CRB = true; //Chemical rocket booster
 
-Fuel = 1; //Liquid hydrogen
-Oxidizer = 1; //Liquid Oxygen
+Fuel = 1; //Liquid hydrogen UNUSED
+Oxidizer = 1; //Liquid Oxygen UNUSED
+
 FuelInletQuality = 3; //LOW, MED, HIGH
 OxidizerInletQuality = 3; //LOW, MED, HIGH
 FuelValveQuality = 3; //LOW, MED, HIGH
@@ -26,6 +27,8 @@ TurbopumpQuality = 3; //LOW, MED, HIGH
 HeatExchangerQuality = 3; //LOW, MED, HIGH
 ThrustChamberQuality = 3; //LOW, MED, HIGH
 ThrustChamberExtension = 3;  //LOW, MED, HIGH
+
+NozzleHeat = 10; //C
 
 #endregion
 
@@ -43,3 +46,5 @@ Power = 100; //Power (MW)
 position = new vector(x, y);
 velocity = new vector_zero();
 steering_force = new vector_zero();
+
+ISP = (FuelInletQuality+OxidizerInletQuality+FuelValveQuality+OxidizerValveQuality+TurbopumpQuality+ThrustChamberQuality+ThrustChamberExtension+NozzleHeat)/8;

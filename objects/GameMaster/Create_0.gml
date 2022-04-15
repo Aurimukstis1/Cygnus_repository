@@ -113,7 +113,7 @@ with(_inst)
 
 ////
 
-global.version = "0.0.4";
+global.version = "0.0.7";
 
 Save = function () {
 	
@@ -219,11 +219,11 @@ Load = function () {
 	
 	var _versionget = _rootstruct.version;
 	if _versionget < global.version {
-		show_message("Warning: Savefile version different from game version!\nCreating backup just incase!")
+		show_message("Warning: Savefile version different from game version!\nCreating backup just incase! " + environment_get_variable("APPDATA"));
 		Backup();
 	}
 	if _versionget > global.version {
-		show_message("Warning: Savefile version different from game version!\nCreating backup just incase!")
+		show_message("Warning: Savefile version different from game version!\nCreating backup just incase! " + environment_get_variable("APPDATA"));
 		Backup();
 	}
 	
@@ -236,7 +236,7 @@ Load = function () {
 	for (var i = 0; i < _rootstruct.bulletcount; i ++) {
 	var _bulletdata = _rootstruct.bullets[i];
 		
-	var _bullets = instance_create_layer(_bulletdata.xx,_bulletdata.yy,"Instances_3",BM_100mm);
+	var _bullets = instance_create_layer(_bulletdata.xx,_bulletdata.yy,"Instances_3",BM_12mm);
 	_bullets.direction = _bulletdata.dir;
 	_bullets.speed = _bulletdata.spd;
 	_bullets.image_angle = _bulletdata.img;

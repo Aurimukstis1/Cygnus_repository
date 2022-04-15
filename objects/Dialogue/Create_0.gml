@@ -1,4 +1,4 @@
-text[0] = "0a";
+text[0] = "A";
 text[1] = "0b";
 
 text_current = 0;
@@ -11,3 +11,4 @@ char_current = 1;
 char_speed = 0.8;
 
 text[text_current] = string_wrap(text[text_current], text_width);
+
