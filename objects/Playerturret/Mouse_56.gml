@@ -1,3 +1,3 @@
-if audio_is_playing(GatlingGunSnd) {
-audio_stop_sound(GatlingGunSnd);
-}
+//if audio_is_playing(HeavyGunSound) {
+//audio_stop_sound(HeavyGunSound);
+//}

@@ -137,10 +137,12 @@ with (BM) {
 		spd : speed,
 		img : image_angle,
 		enemy_status : enemy_,
+		cal : cal,
     }
 }
 
-var _enemies = array_create(instance_number(BM));
+if instance_exists(enemy1) {
+var _enemies = array_create(instance_number(enemy1));
 var i = 0;
 with (enemy1) {
     _enemies[i++] = {
@@ -150,6 +152,7 @@ with (enemy1) {
 		spd : speed,
 		img : image_angle,
     }
+  }
 }
 
 _rootstruct.bulletcount = instance_number(BM);
@@ -185,10 +188,11 @@ with (BM) {
 		spd : speed,
 		img : image_angle,
 		enemy_status : enemy_,
+		cal : cal,
     }
 }
 
-var _enemies = array_create(instance_number(BM));
+var _enemies = array_create(instance_number(enemy1));
 var i = 0;
 with (enemy1) {
     _enemies[i++] = {
@@ -236,11 +240,12 @@ Load = function () {
 	for (var i = 0; i < _rootstruct.bulletcount; i ++) {
 	var _bulletdata = _rootstruct.bullets[i];
 		
-	var _bullets = instance_create_layer(_bulletdata.xx,_bulletdata.yy,"Instances_3",BM_12mm);
+	var _bullets = instance_create_layer(_bulletdata.xx,_bulletdata.yy,"Instances_3",BM);
 	_bullets.direction = _bulletdata.dir;
 	_bullets.speed = _bulletdata.spd;
 	_bullets.image_angle = _bulletdata.img;
 	_bullets.enemy_ = _bulletdata.enemy_status;
+	_bullets.cal = _bulletdata.cal;
 	
 	instance_destroy(enemy1);
 	for (var i = 0; i < _rootstruct.enemycount; i ++) {

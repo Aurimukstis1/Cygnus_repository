@@ -32,7 +32,7 @@ if health_ <= 0 {
 	repeat 5 {
 	audio_play_sound(choose(ExplodingSnd4,ExplodingSnd3,ExplodingSnd2,ExplodingSnd1,ExplodingSnd),1,false);
 	part_particles_create(global.P_System, x, y, global.Particle_explosionburstsmall2, 1);
-	part_particles_create(global.P_System, random_range(x-100,x+100), random_range(y-100,y+100), global.Particle_explosionburstsmall1, 1);
+	part_particles_create(global.P_System, random_range(x-100,x+100), random_range(y-100,y+100), global.Particle_explosionburstsmall1, 5);
 	}
 	#endregion
 	instance_destroy();
@@ -44,8 +44,9 @@ if Cooldown_0 = 0 {
 //	audio_play_sound(BGLZRShootingSnd2,1,false);
 	alarm_set(0,150);
 	Cooldown_0 = 1;
-	with instance_create_layer(_xx, _yy, "Instances_3", BM_12mm)
+	with instance_create_layer(_xx, _yy, "Instances_3", BM)
 	{
+		cal = 12;
 		speed = 50;
 		image_angle = other.image_angle;
 		direction = other.image_angle;
